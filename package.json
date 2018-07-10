@@ -1,0 +1,26 @@
+{
+  "name": "Kisaragi",
+  "version": "0.0.1",
+  "description": "Kisaragi, Your Destroyer ShipGirl bot that can log message changes on a channel.",
+  "main": "corekisaragi.js",
+  "scripts": {
+    "start": "node corekisaragi.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Deivu/Kisaragi"
+  },
+  "engines": {
+    "node": "10.4.0"
+  },
+  "author": "Saya",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "npm": "^6.1.0"
+  },
+  "optionalDependencies": {
+	  "bufferutil": "^3.0.5",
+    "uws": "^9.14.0"
+  }
+}
